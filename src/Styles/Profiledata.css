@@ -1,0 +1,53 @@
+.container-box{
+
+  height: 300px;
+}
+.profile-container{
+  display: flex;
+  justify-content: space-between;
+}
+.profile-image-box{
+    display: flex;
+}
+.profile-image{
+  margin-top: 30px;
+}
+.profile-title-box{
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+}
+.profile-title{
+  display: flex;
+  padding-right: 500px;
+  
+  color: #fff !important;
+}
+.profile-data{
+ 
+    display: grid;
+    grid-template-columns:50% 50%;
+    color: #fff;
+    
+}
+.data-key{
+  font-size: "15px";
+  color: "#B9B9B9";
+}
+.data-value{
+  display: flex;
+  margin-left: -130px;
+}
+.download-report{
+    display: flex;
+}
+.download-report-btns{
+color: #fff;
+border: 1px solid #3856F3;
+background-color: transparent;
+height: 40px;
+margin-top: 30px;
+padding: 7px;
+border-radius: 5px;
+font-size: 15px;
+}

@@ -1,0 +1,249 @@
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.form-wrapper{
+    max-width: 500px;
+    padding: 20px;
+    color: #fff;
+    align-items: center;
+    margin-left: 50px;
+}
+.title-box{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.admedia-box{
+    display:grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 30px;
+}
+input [type="file"]{
+  padding: 10px;
+  display:  none;
+}
+.desc-box{
+ display:grid;
+ grid-template-columns: 50% 50%;
+ margin-top: 30px;
+}
+.call-action{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+   }
+
+input[type="text"]{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #898989;
+    background:#050a17;
+}
+
+
+.desc-box textarea{
+    background:#050a17;
+    width: 500px;
+    height: 140px;
+}
+.taget-box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    
+}
+.taget-box select{
+    background:#050a17;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 10px;
+}
+.target-check{
+    float: right;
+    
+    padding-right: 165px;
+    padding-top: 3px;
+} 
+.target-num{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+}
+
+#num1,#num2{
+
+    border: none;
+    border: 1px solid #898989;
+}
+.target-num>div{
+    display: flex;
+    flex-direction: row;
+        
+}   
+input[type="number"]{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background:#050a17;
+}
+.interest-box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+     margin-top: 30px;     
+}
+.budget-box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.budget-box label{
+    margin-top: 32px;
+}
+.budget-box input[type="number"]{
+    background:#050a17;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #898989;
+}
+.budget-box input::placeholder{
+  padding-left: 5px;
+}
+.elimination-box input::placeholder{
+    padding-left: 5px;
+}
+
+
+.date-box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.date-box label{
+    margin-top: 32px;
+}
+.date-pick{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    
+}
+input[type="date"]{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    border: 1px solid #898989;
+    padding-left: 10px;
+    background:#050a17;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%) sepia(50%) hue-rotate(120deg) saturate(300%);
+}
+
+
+
+
+.elimination-box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.elimination-box label{
+    margin-top: 32px;
+}
+.elimination-box input[type="number"]{
+
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #898989;
+}
+.gender-box {
+   display:grid;
+   grid-template-columns: 50% 50%;
+}
+.gender-box label{
+    margin-top: 30px !important;
+}
+.gender-box >div{
+   display: flex;
+   margin-top: 30px;
+   gap:10px
+}
+.placing-box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.placing-box label{
+    margin-top: 30px;
+}
+.placing-box>div{
+    display: flex;
+   margin-top: 30px;
+}
+.placing-box>div{
+   
+   display: inline;
+   width: 550px;
+}
+.placing-box input[type="checkbox"]{
+    padding-left: 30px !important;
+}
+.preview-box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.preview-box label{
+    margin-top: 30px;
+}
+.preview-box .preview-button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    background-color: #3856F3;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    
+}
+.discard-button{
+    background:#050a17;
+    padding:9px;
+    width: 90px;
+    color:#fff;
+    border-radius:3px;
+    border: 1px solid #898989;
+}
+.submit-button{
+    padding:9px;
+    width: 90px;
+    color:#fff;
+    background-color: #3856F3;
+    border-radius:3px;
+    border: 1px solid #3856F3;
+  
+}
+.buttons-ds{
+    display: flex;
+    float: right;
+    margin-top: 60px;
+    gap: 30px;    
+}
+
+input[type="text"],input[type="number"],textarea:focus{
+    color: #fff9ff;
+    
+}

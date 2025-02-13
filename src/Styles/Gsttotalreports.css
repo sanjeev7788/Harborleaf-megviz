@@ -1,0 +1,61 @@
+.dropdown-item:hover{
+    background-color: rgb(171, 171, 171);
+}
+
+.gst-button1{
+    background-color: #3856F3;
+    border: 1px solid #3856F3;
+    width:100px;
+    height:40px;
+    margin: 0px 10px;
+    color:#fff;
+    border-radius: 2px;   
+    padding: 5px;
+}
+
+.gst-parent{
+    position: relative;
+    display: flex;
+}
+.gst-child-parent{
+    display: grid;
+    position: absolute;
+    top:42px;
+    right: 10px;
+    background-color: aliceblue;
+     color: black;
+     z-index: 1;
+}
+.gst-child1{
+border: none;
+width: 170px;
+height: 45px;
+text-align: start !important;
+padding-left: 10px;
+line-height: 1.5;
+
+}
+
+#gst-child11{
+    background-color: #a2a2a2 !important;
+}
+.gst-action-btns{
+    border: none;
+    color: #fff;
+    border: 1px solid #3856F3 !important;
+    background-color: transparent;
+    width:120px;
+    height:40px;
+  }
+  .gst-retrive-child{
+    width: 180px !important;
+    text-align: start;
+    background-color: #ebe8e8;
+    border: none;
+    padding: 9px;
+    
+    
+}
+.gst-retrive-parent .gst-retrive-child{
+    color:black !important;
+}

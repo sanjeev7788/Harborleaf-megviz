@@ -1,0 +1,26 @@
+.social-container{
+    height: 300px;
+}
+.social-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social-title-box{
+ 
+    display: flex;
+    
+    color: "#fff";
+    
+}
+.social-title{
+    color: #fff !important;
+    
+    margin-top: 15px;
+}
+.social-data1{
+    display: grid;
+    grid-template-columns:15% 85% ;
+    color: #fff;
+    
+}

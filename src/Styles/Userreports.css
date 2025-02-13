@@ -1,0 +1,26 @@
+.users-report-btns-parent{
+    position: relative;
+    display: flex;
+}
+.user-report-btns-child{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #3856F3;
+    width:120px;
+    height:40px;
+}
+.usermgmt-report-child-parent{
+    position: absolute;
+    top: 42px;
+    right: 41px;
+}
+.user-report-child{
+    width: 180px !important;
+    text-align: start;
+    background-color: #ebe8e8;
+    border: none;
+    padding: 9px;
+}
+.usermgmt-report-child-parent .user-report-child{
+    color: black !important;
+}

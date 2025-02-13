@@ -1,0 +1,57 @@
+.edit-profile{
+    height: 50vh;
+    background-color:#60606017;
+    opacity:90%;
+    border-radius: 4px;
+    display: flex;
+    margin-top: 10px;
+}
+.profileimg-box {
+  margin-top: 22px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.edit-title{
+    color: #fff;
+    margin-left: 50px;
+    font-weight: 500;
+}
+.edit-data-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+        
+}
+.edit-data{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    color: #fff;
+    margin-left: 25px;
+    gap: 10px;
+    line-height: 40px;
+}
+.edit-key{
+    margin-left: 30px;
+    color: #898989;
+    font-weight: 400;
+}
+
+.edit-value{
+    display: flex;
+    color:#FFFFFF;
+    
+}
+
+.change-pwd-box{
+    margin-top: 176px;
+    margin-left: 50px;
+}
+.change-pwd-box button{
+   padding: 11px;
+   border: 1px solid #3856F3;
+   border-radius: 2px;
+   background-color: transparent;
+   color:#FFFFFF;
+}

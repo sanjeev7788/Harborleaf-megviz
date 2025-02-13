@@ -1,0 +1,28 @@
+.moniter-camp-butns-wrapper{
+    position: relative;
+    display: flex;
+}
+.moniter-camp-butns{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #3856F3;
+    width:120px;
+    height:40px;
+}
+.monitercamp-child-parent{
+    position: absolute;
+    top: 42px;
+    right: 9px;
+    
+}
+.monitercamp-childs{
+    width: 120px !important;
+    text-align: start;
+    background-color: #ebe8e8;
+    border: none;
+    padding: 9px;
+    
+}
+.monitercamp-child-parent .monitercamp-childs{
+    color: black !important;
+}

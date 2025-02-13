@@ -1,0 +1,27 @@
+.postbox-container{
+  height: 600px;
+}
+.post-container{
+   display: flex;
+   flex-direction: column;
+   background: "#60606017";
+}
+.post-data{
+  display: flex;
+  color: #fff;
+    
+  font-weight: 400;
+}
+.post-images-grid{
+     width: 100%;
+     display: flex;
+}
+.post-image{
+  width: 33.33%;
+}
+.post-image img{
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}

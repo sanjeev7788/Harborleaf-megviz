@@ -1,0 +1,113 @@
+.popup-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 300px;
+    height: 90vh;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.popup-title-container{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    color: aliceblue;
+    background-color:#8B8B8BB2;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+.popup-title-container p{
+   padding-top: 14px;
+   padding-left: 5px;
+}
+
+.popup-title-container span{
+    font-size: 12px;
+    color: rgb(35, 35, 35);
+    padding-left: 5px;
+}
+
+.popimg-container{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color:#8B8B8BB2;
+}
+
+.popimg-container img{
+    
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    
+}
+
+.menu-delete-box{
+ position: absolute;  
+ display: flex;
+ flex-direction: column;
+ margin-left: 270px;
+ margin-top: 5px;
+}
+.dot{
+    position: relative;
+}
+.dot-menu{
+    border: none;
+    background-color:blue !important;
+    width: 25px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: -9px;
+}
+
+.dot-delete{
+    position: relative;
+    display: flex;
+}
+.dot-delete button{
+    position: absolute;
+    margin-left: -75px;
+    width: 90px;
+    height: 46px;
+    border: none;
+    border: none;
+    border-radius: 2px;
+    text-align:left;
+}
+.tools-wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(119, 169, 186);
+    padding: 10px;
+    background:linear-gradient(#190c04, rgb(152, 151, 151) );
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  
+}
+.tools-left{
+    display: flex;
+}
+.tools-left i{
+    color: aquamarine;
+}
+.tools-right i{
+    color: aquamarine;
+}
+.image-text{
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.image-text p{
+    position:absolute;
+    bottom: 0;
+    padding-left: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+}

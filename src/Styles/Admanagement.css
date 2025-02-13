@@ -1,0 +1,50 @@
+.admanagment{
+   height: 90vh;
+
+}
+.ad-container{
+    display: flex;
+    justify-content: space-around;
+     
+}
+.advertisement{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 120px;
+    font-weight: 600;
+}
+
+.advertisement button{
+    background:#050a17;
+    border-radius: 1px ;
+    border: 1px solid #3856F3;
+    color: #fff;
+    padding:10px 20px;
+}
+
+.moniter-cmpg{
+    display: flex;
+    margin-top: 120px;
+    font-weight: 600;
+}
+.moniter-cmpg button{
+    background:#050a17;
+    border-radius: 1px ;
+    border: 1px solid #3856F3;
+    color: #fff;
+    padding:10px 20px;
+}
+
+.billing-invoice{
+    display: flex;
+    margin-top: 120px;
+    font-weight: 600;
+}
+.billing-invoice button{
+    background:#050a17;
+    border-radius: 1px ;
+    border: 1px solid #3856F3;
+    color: #fff;
+    padding:10px 20px;
+    
+}  

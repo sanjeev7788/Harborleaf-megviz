@@ -1,0 +1,6 @@
+body{
+  overflow-x: hidden !important;
+  font-family: "Roboto", serif;
+  background:#050a17 !important;
+    /* background: linear-gradient(to bottom,#081844, #000000); */
+}
