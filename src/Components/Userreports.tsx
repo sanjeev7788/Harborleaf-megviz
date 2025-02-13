@@ -115,6 +115,7 @@ const Userreports = () => {
   }
 </tbody>
   </table>
+  <Popupmodel />
   <Pagination />
   </div>
 
